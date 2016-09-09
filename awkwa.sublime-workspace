@@ -1,0 +1,284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 240.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 527.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/awkwa/admin",
+		"/D/xampp/htdocs/awkwa/admin/modul",
+		"/D/xampp/htdocs/awkwa/admin/modul/pages",
+		"/D/xampp/htdocs/awkwa/admin/modul/posts",
+		"/D/xampp/htdocs/awkwa/inc"
+	],
+	"file_history":
+	[
+		"/D/xampp/htdocs/awkwa/inc/config.php",
+		"/D/xampp/htdocs/awkwa/admin/modul/pages/fungsi_add.php",
+		"/D/xampp/htdocs/awkwa/login.php",
+		"/D/xampp/htdocs/awkwa/admin/header.php",
+		"/D/xampp/htdocs/awkwa/inc/fungsi_pages.php",
+		"/D/xampp/htdocs/awkwa/inc/fungsi_beranda.php",
+		"/D/xampp/htdocs/awkwa/index.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/home_header.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Home 2.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/get_menu.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/home.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Alus_auth 3.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Alus_hmvc.php",
+		"/D/xampp/htdocs/asiasurvei/application/config/alus_auth.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/constants.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/routes.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/autoload.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/routes 2.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Alus_auth_model.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Ion_auth_model.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/views/index.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/config 2.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Home_front.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/home_front/controllers/Home_front.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/home_front/views/index.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/alus_auth 2.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/autoload 2.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/M_surveying_education.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/controllers/Surveying_education.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/views/matakuliah.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/contact/views/index.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/template_front/views/footer.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/config.php",
+		"/D/xampp/htdocs/asiasurvei/application/config/routes.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/database.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/Alus_auth.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/.htaccess 2",
+		"/D/xampp/htdocs/asiasurvei/.htaccess",
+		"/C/Users/zhiemy/AppData/Local/Temp/fz3temp-1/alus_auth.php",
+		"/C/Users/zhiemy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/xampp/htdocs/asiasurvei/application/modules/cadastre_template/views/index.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/repository/views/index.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/regulation/views/index.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/professional_template/views/index.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/event/views/index.php",
+		"/D/xampp/htdocs/universo/shortcodes.html",
+		"/D/xampp/htdocs/asiasurvei/application/modules/template_front/views/navbar.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/contact/controllers/Contact.php",
+		"/D/xampp/htdocs/universo/contact-us.html",
+		"/D/xampp/htdocs/asiasurvei/application/modules/template_front/views/header.php",
+		"/D/xampp/htdocs/asiasurvei/application/config/config.php",
+		"/D/xampp/htdocs/asiasurvei/application/config/database.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/Surveying_education.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/Survey.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/Front_surveying_education.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/Front_surveying_eduction.php",
+		"/D/xampp/htdocs/asiasurvei/application/modules/surveying_education/models/front_surveying_eduction.php",
+		"/D/xampp/htdocs/dzky/index.php",
+		"/D/xampp/htdocs/dzky/theme/style.css",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/delete_pilih.php",
+		"/D/xampp/htdocs/dzky/admin/header.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/fungsi_add.php",
+		"/D/xampp/htdocs/dzky/admin/modul/gallery/fungsi_edit_file.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/fungsi_edit.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/edit.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/delete.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/add.php",
+		"/D/xampp/htdocs/dzky/admin/modul/gallery/edit.php",
+		"/D/xampp/htdocs/dzky/admin/modul/user/fungsi_edit.php",
+		"/D/xampp/htdocs/dzky/admin/modul/user/edit.php",
+		"/D/xampp/htdocs/dzky/admin/modul/slider/data.php",
+		"/D/xampp/htdocs/dzky/inc/fungsi_beranda.php",
+		"/D/xampp/htdocs/pak/config.php",
+		"/D/xampp/htdocs/asiasurvei/application/config/autoload.php",
+		"/C/Users/zhiemy/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"navbar",
+			"about",
+			"table",
+			"@",
+			"form",
+			"background",
+			"call",
+			"call us",
+			"background",
+			"css3",
+			"load",
+			"gif",
+			"loader",
+			"contact",
+			"logo",
+			"blog",
+			"video graphy",
+			"portfolio",
+			"pages",
+			"slider",
+			"about",
+			"tiny_mce",
+			"tiny",
+			"about"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "awkwa.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 372.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
