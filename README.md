@@ -62,7 +62,7 @@
       </ul>
     </li> -->
     <li><a href="#usage">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
     <!-- <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
@@ -75,8 +75,7 @@
 
 ## About The Project
 
-AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan untuk teman-teman yang ingin belajar menjadi web programmer, dibuat dengan cara yang sederhana. semoga bermanfaat
-
+AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan untuk teman-teman yang ingin belajar bikin web, dibuat dengan cara yang sederhana. semoga bermanfaat
 
 ### Built With
 
@@ -92,19 +91,11 @@ Untuk memulai langsung ajah clone atau download -->
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone repository
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Zhiemy/AWKWA.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+2. Lokasi kan di folder local server, kemudian setting database di file inc/dbs.php
 
 <!-- USAGE EXAMPLES -->
 
