@@ -1,8 +1,8 @@
 <?php
 include "dbs.php";
-include "fetchdata.php";
+include "fungsidata.php";
 
-$getpost = new Fetchdata();
+$getpost = new Fungsidata();
 $arr_login = $getpost->login();
 
 if ($arr_login) {

@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['username']) and isset($_SESSION['password'])) {
+if (isset($_SESSION['username'])) {
 
 	include "../inc/dbs.php";
 	include "../inc/fungsidata.php";

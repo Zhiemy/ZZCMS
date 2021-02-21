@@ -34,7 +34,7 @@ include "header.php";
             </div>
          <?php } ?>
 
-         <form id="contactForm" method="post" action="#">
+         <form id="contactForm" method="post">
             <div class="row control-group">
                <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label>Name</label>

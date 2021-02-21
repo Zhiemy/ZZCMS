@@ -60,7 +60,7 @@ class Fungsidata extends Dbs
       return $result;
    }
 
-   function delete($table, $where = '')
+   public function delete($table, $where = '')
    {
       if (!empty($where)) {
          if (substr(strtoupper(trim($where)), 0, 5) != 'WHERE') {
@@ -74,5 +74,32 @@ class Fungsidata extends Dbs
       $result = $this->konek()->query($sql);
 
       return $result;
+   }
+   public function login()
+   {
+      $username = $_POST['username'];
+      $password = $_POST['password'];
+
+      $sql = "SELECT * from user where username = '$username'";
+      $result = $this->konek()->query($sql);
+      $numrows = $result->num_rows;
+      $data = $result->fetch_assoc();
+
+      if ($numrows > 0) {
+
+         if (password_verify($password, $data['password'])) {
+
+            session_start();
+            $_SESSION['username'] = $data['username'];
+            $_SESSION['level'] = $data['level'];
+            $_SESSION['nama'] = $data['nama_user'];
+
+            return TRUE;
+         } else {
+            return FALSE;
+         }
+      } else {
+         return FALSE;
+      }
    }
 }

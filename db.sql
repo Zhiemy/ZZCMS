@@ -20,9 +20,9 @@ CREATE TABLE IF NOT EXISTS `gallery` (
   `tgl_entry` datetime NOT NULL,
   `entry_oleh` varchar(50) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
--- Dumping data for table awkwa.gallery: ~1 rows (approximately)
+-- Dumping data for table awkwa.gallery: ~0 rows (approximately)
 /*!40000 ALTER TABLE `gallery` DISABLE KEYS */;
 /*!40000 ALTER TABLE `gallery` ENABLE KEYS */;
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `gallery_file` (
   `tgl_entry` datetime DEFAULT NULL,
   `entry_oleh` varchar(50) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table awkwa.gallery_file: 3 rows
 /*!40000 ALTER TABLE `gallery_file` DISABLE KEYS */;
@@ -55,10 +55,12 @@ CREATE TABLE IF NOT EXISTS `message` (
   `status` int(11) NOT NULL,
   `tanggal_dikirim` datetime NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
--- Dumping data for table awkwa.message: 0 rows
+-- Dumping data for table awkwa.message: 1 rows
 /*!40000 ALTER TABLE `message` DISABLE KEYS */;
+INSERT INTO `message` (`id`, `nama`, `email`, `phone`, `pesan`, `status`, `tanggal_dikirim`) VALUES
+	(3, 'asdasd', 'asdasdasdsad@asdasdsd.com', 'asdasdasd', 'asdasd', 0, '2021-02-21 04:30:04');
 /*!40000 ALTER TABLE `message` ENABLE KEYS */;
 
 -- Dumping structure for table awkwa.pages
@@ -76,7 +78,7 @@ CREATE TABLE IF NOT EXISTS `pages` (
 INSERT INTO `pages` (`id`, `judul`, `content`, `tgl_entry`, `entry_oleh`) VALUES
 	(11, 'Selamat Datang Di Cups Website', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>', '2021-02-21 09:41:28', 'administrator'),
 	(12, 'Profile', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>', '2021-02-21 09:41:19', 'administrator'),
-	(13, 'Kontak ', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>', '2021-02-21 09:41:24', 'administrator');
+	(13, 'Kontak ', '<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>', '2021-02-21 04:31:35', 'administrator');
 /*!40000 ALTER TABLE `pages` ENABLE KEYS */;
 
 -- Dumping structure for table awkwa.posts
@@ -87,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `tgl_entry` datetime NOT NULL,
   `entry_oleh` varchar(50) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table awkwa.posts: 0 rows
 /*!40000 ALTER TABLE `posts` DISABLE KEYS */;
@@ -96,8 +98,8 @@ CREATE TABLE IF NOT EXISTS `posts` (
 -- Dumping structure for table awkwa.user
 CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) NOT NULL,
-  `password` varchar(50) NOT NULL,
+  `username` varchar(150) NOT NULL,
+  `password` varchar(150) NOT NULL,
   `nama_user` varchar(100) NOT NULL,
   `level` int(11) NOT NULL,
   `tgl_entry` datetime DEFAULT NULL,
@@ -107,8 +109,8 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Dumping data for table awkwa.user: 2 rows
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 INSERT INTO `user` (`id`, `username`, `password`, `nama_user`, `level`, `tgl_entry`) VALUES
-	(1, 'admin', '$2y$10$Ci2wEBgRoJzWIzmHAQJW0eBG42iBZEob3jWKPHg1OzY', 'administrator', 0, '2021-02-21 15:25:54'),
-	(5, 'author', '$2y$10$BzjWzyx6pO6X8mow2.nTjOMNS1iFEzWL0FvoK16rASX', 'author', 1, '2021-02-21 15:26:06');
+	(1, 'admin', '$2y$10$hvFLUiT7pvVDkQMWJFypxOXkDAN94R0bFw5AdaVzEiGJo.cGvOFtC', 'administrator', 0, '2021-02-21 16:40:37'),
+	(5, 'author', '$2y$10$JzKTmLi5z8r4hGWvgpRP8evqmi8gYvofQ2HQMqj1h1Fm1KU/JL/Ie', 'author', 1, '2021-02-21 16:40:51');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
