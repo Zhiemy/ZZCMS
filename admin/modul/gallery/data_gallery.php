@@ -93,7 +93,7 @@ $row_post = $arr_post->fetch_assoc();
               <label for="id_pilih[]"></label>
             </td>
             <td><?php echo $i; ?></td>
-            <td><img src="../upload/<?php echo $data['nama_file']; ?>" width="100%" /></td>
+            <td><img src="../upload/<?php echo ($data['nama_file']) ? $data['nama_file'] : 'images.jpg'; ?>" width="100%" /></td>
             <td><?php echo $data['keterangan']; ?></td>
             <td><?php echo $data['tgl_entry']; ?></td>
             <td><?php echo $data['entry_oleh']; ?></td>
