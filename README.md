@@ -36,7 +36,7 @@
     <a href="https://github.com/Zhiemy/AWKWA"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Zhiemy/AWKWA">View Demo</a>
+    <a href="https://cdlab.tukangbikinweb.com/awkwa/">View Demo</a>
     ·
     <a href="https://github.com/Zhiemy/AWKWA/issues">Report Bug</a>
     ·
@@ -164,9 +164,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Aji Mulyana - [@your_twitter](https://twitter.com/zhiemy) - zhiemy@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/zhiemy/AWKWA](https://github.com/zhiemy/AWKWA)
 
 <!-- ACKNOWLEDGEMENTS -->
 
