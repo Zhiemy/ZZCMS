@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title><?php page_title(); ?></title>
+    <title>AWKWA Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="theme/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 
 <body>
 
-  <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->

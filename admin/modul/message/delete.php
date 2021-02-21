@@ -1,17 +1,13 @@
 <?php
 session_start();
-include "../../../inc/config.php";
+include "../../../inc/dbs.php";
+include "../../../inc/fungsidata.php";
 
-	$id = $_REQUEST['id'];
-	
-			$kueri = mysql_query("delete from message where id_message = $id");
-			
-			if($kueri)
-			{
-				
-				header("location:../../index.php?node=modul/message/data&sukses");	
-			}
-			else
-			{
-				echo "gagal";
-			}
+$id = $_REQUEST['id'];
+
+$getpost = new Fungsidata();
+$kueri = $getpost->delete('message', "WHERE id  = '" . $id . "'");
+
+if ($kueri) {
+	header("location:../../index.php?node=modul/message/data&sukses");
+}

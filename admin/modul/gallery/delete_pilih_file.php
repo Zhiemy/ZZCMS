@@ -1,22 +1,29 @@
 <?php
 session_start();
-include "../../../inc/config.php";
+include "../../../inc/dbs.php";
+include "../../../inc/fungsidata.php";
 
+$getpost = new Fungsidata();
+
+$id_gallery = @$_REQUEST['id_gallery'];
 $id_pilih = @$_REQUEST['id_pilih'];
 
-if($id_pilih != ""){
 
-	foreach($id_pilih as $row){
-		
-		$kueri = mysql_query("delete from gallery_file where id_gallery_file = $row");
+if ($id_pilih != "") {
+	foreach ($id_pilih as $row) {
 
-		if($kueri)
-		{
-			header("location:../../index.php?node=modul/gallery/data_gallery&id=".$_REQUEST['id_gallery']."&sukses");	
+		$arr_post = $getpost->select('gallery_file', '*', "WHERE id = '" . $row . "'");
+		$row_post = $arr_post->fetch_assoc();
+
+		if ($row_post['nama_file']) {
+			unlink("../../../upload/" . $row_post['nama_file']);
 		}
-	}
-	
-}else{
 
-	header("location:../../index.php?node=modul/gallery/data_gallery&id=".$_REQUEST['id_gallery']."&warning");			
+		$kueri = $getpost->delete('gallery_file', "WHERE id  = '" . $row . "'");
+	}
+
+	header("location:../../index.php?node=modul/gallery/data_gallery&id=" . $id_gallery . "&sukses");
+} else {
+
+	header("location:../../index.php?node=modul/gallery/data_gallery&id=" . $id_gallery . "&warning");
 }

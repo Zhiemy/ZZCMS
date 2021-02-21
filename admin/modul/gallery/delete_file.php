@@ -1,13 +1,22 @@
 <?php
 session_start();
-include "../../../inc/config.php";
+include "../../../inc/dbs.php";
+include "../../../inc/fungsidata.php";
 
-	$id = $_REQUEST['id'];
-	$id_gallery_file = $_REQUEST['id_gallery_file'];
-	
-			$kueri = mysql_query("delete from gallery_file where id_gallery_file = $id_gallery_file");
-			
-			if($kueri)
-			{
-				header("location:../../index.php?node=modul/gallery/data_gallery&id=$id&sukses");	
-			}
+$id = $_REQUEST['id'];
+$id_file = $_REQUEST['id_file'];
+
+$getpost = new Fungsidata();
+
+$arr_post = $getpost->select('gallery_file', '*', "WHERE id = '" . $id_file . "'");
+$row_post = $arr_post->fetch_assoc();
+
+if ($row_post['nama_file']) {
+	unlink("../../../upload/" . $row_post['nama_file']);
+}
+
+$kueri = $getpost->delete('gallery_file', "WHERE id  = '" . $id_file . "'");
+
+if ($kueri) {
+	header("location:../../index.php?node=modul/gallery/data_gallery&id=" . $id . "&sukses");
+}

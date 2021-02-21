@@ -1,12 +1,13 @@
 <?php
 session_start();
-include "../../../inc/config.php";
+include "../../../inc/dbs.php";
+include "../../../inc/fungsidata.php";
 
-	$id = $_REQUEST['id'];
-	
-			$kueri = mysql_query("delete from posts where id_posts = $id");
-			
-			if($kueri)
-			{
-				header("location:../../index.php?node=modul/posts/data&sukses");	
-			}
+$id = $_REQUEST['id'];
+
+$getpost = new Fungsidata();
+$kueri = $getpost->delete('posts', "WHERE id  = '" . $id . "'");
+
+if ($kueri) {
+	header("location:../../index.php?node=modul/posts/data&sukses");
+}
