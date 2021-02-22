@@ -73,11 +73,11 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## Tentang Projek ini
 
 AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan untuk teman-teman yang ingin belajar bikin web, dibuat dengan cara yang sederhana. semoga bermanfaat
 
-### Built With
+### Dibuat dengan
 
 - [Bootstrap](https://getbootstrap.com)
 - [JQuery](https://jquery.com)
@@ -89,7 +89,7 @@ AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan un
 
 Untuk memulai langsung ajah clone atau download -->
 
-### Installation
+### Instalasi
 
 1. Clone repository
    ```sh
@@ -131,7 +131,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 
-## Contact
+## Kontak
 
 Aji Mulyana - [@zhiemy](https://twitter.com/zhiemy) - zhiemy@gmail.com
 
