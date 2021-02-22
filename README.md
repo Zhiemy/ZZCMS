@@ -31,7 +31,6 @@
   <h3 align="center">AWKWA Content Management System</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
     <br />
     <a href="https://github.com/Zhiemy/AWKWA"><strong>Explore the docs »</strong></a>
     <br />
