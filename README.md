@@ -133,7 +133,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Kontak
 
-Aji Mulyana - [@zhiemy](https://twitter.com/zhiemy) - zhiemy@gmail.com
+Aji Mulyana - [@zhiemy](https://twitter.com/zhiemy)
 
 Project Link: [https://github.com/zhiemy/AWKWA](https://github.com/zhiemy/AWKWA)
 
