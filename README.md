@@ -138,7 +138,7 @@ Aji Mulyana - [@zhiemy](https://twitter.com/zhiemy) - zhiemy@gmail.com
 Project Link: [https://github.com/zhiemy/AWKWA](https://github.com/zhiemy/AWKWA)
 
 <!-- ACKNOWLEDGEMENTS -->
-
+<!--
 ## Acknowledgements
 
 - [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
@@ -151,7 +151,7 @@ Project Link: [https://github.com/zhiemy/AWKWA](https://github.com/zhiemy/AWKWA)
 - [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 - [Sticky Kit](http://leafo.net/sticky-kit)
 - [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
+- [Font Awesome](https://fontawesome.com) -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -165,7 +165,7 @@ Project Link: [https://github.com/zhiemy/AWKWA](https://github.com/zhiemy/AWKWA)
 [issues-shield]: https://img.shields.io/github/issues/Zhiemy/AWKWA.svg?style=for-the-badge
 [issues-url]: https://github.com/Zhiemy/AWKWA/issues
 [license-shield]: https://img.shields.io/github/license/Zhiemy/AWKWA.svg?style=for-the-badge
-[license-url]: https://github.com/Zhiemy/AWKWA/blob/master/LICENSE.txt
+[license-url]: https://github.com/Zhiemy/AWKWA/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
