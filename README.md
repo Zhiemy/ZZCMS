@@ -75,7 +75,7 @@
 
 ## Tentang Projek ini
 
-AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan untuk teman-teman yang ingin belajar bikin web, dibuat dengan cara yang sederhana. semoga bermanfaat
+AWKWA CMS adalah projek website opensource pertama saya yang saya dedikasikan untuk teman-teman yang ingin belajar bikin web, dibuat dengan cara yang sederhana dan mungkin kedepan akan terus dikembangkan. semoga bermanfaat
 
 ### Dibuat dengan
 
