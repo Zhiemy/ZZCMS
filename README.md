@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Zhiemy/AWKWA">
-    <img src="images/logo.png" alt="Logo">
+    <img src="images/awkwa-banner.jpg" alt="Logo">
   </a>
 
   <h3 align="center">AWKWA Content Management System</h3>
