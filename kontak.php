@@ -1,6 +1,4 @@
 <?php
-include "inc/dbs.php";
-include "inc/fetchdata.php";
 include "header.php";
 ?>
 
