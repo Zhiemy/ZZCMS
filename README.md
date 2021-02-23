@@ -48,9 +48,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#tentang-projek-ini">About The Project</a>
+      <a href="#tentang-projek-ini">Tentang Projek</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Dibuat Dengan</a></li>
       </ul>
     </li>
     <!-- <li>
@@ -60,7 +60,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li> -->
-    <li><a href="#usage">Installation</a></li>
+    <li><a href="#Instalasi">Installation</a></li>
     <!-- <li><a href="#usage">Usage</a></li> -->
     <!-- <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li> -->
