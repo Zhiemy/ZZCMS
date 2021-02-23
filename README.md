@@ -48,7 +48,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#tentang-projek-ini">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -95,11 +95,13 @@ Untuk memulai langsung ajah clone atau download -->
    git clone https://github.com/Zhiemy/AWKWA.git
    ```
 2. Lokasi kan di folder local server, kemudian setting database di file inc/dbs.php
-3. Username dan Password 
-  ```sh
-  username : admin
-  password : admin
-  ```
+3. Username dan Password
+
+```sh
+username : admin
+password : admin
+```
+
 <!-- USAGE EXAMPLES -->
 
 <!-- ## Usage
