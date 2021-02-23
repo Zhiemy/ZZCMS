@@ -95,7 +95,11 @@ Untuk memulai langsung ajah clone atau download -->
    git clone https://github.com/Zhiemy/AWKWA.git
    ```
 2. Lokasi kan di folder local server, kemudian setting database di file inc/dbs.php
-
+3. Username dan Password 
+  ```sh
+  username : admin
+  password : admin
+  ```
 <!-- USAGE EXAMPLES -->
 
 <!-- ## Usage
