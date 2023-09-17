@@ -37,10 +37,10 @@
           <center><img src="images/logo.png" width="200" /></center>
           <br />
           <div class="form-group">
-            <input name="username" type="text" class="form-control" id="username" placeholder="Masukan Username">
+            <input name="username" type="text" class="form-control" id="username" placeholder="Masukan Username" required>
           </div>
           <div class="form-group">
-            <input name="password" type="password" class="form-control" id="Password" placeholder="Masukan Password">
+            <input name="password" type="password" class="form-control" id="Password" placeholder="Masukan Password" required>
           </div>
           <button type="submit" class="btn btn-info">Masuk</button>
 
@@ -56,7 +56,7 @@
 
               <?php } ?>
 
-              <a href="index.php"><strong>&laquo;</strong> Kembali ke halaman beranda</a>
+              <a href="index.php"> &nbsp; <strong>&laquo;</strong> Kembali ke halaman beranda</a>
         </form>
       </div>
       <div class="col-lg-4"></div>

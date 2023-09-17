@@ -17,7 +17,7 @@ class Dbs
 		$this->servername = "localhost";
 		$this->username = "root";
 		$this->password = "";
-		$this->dbname = "awkwa";
+		$this->dbname = "zzcms";
 
 		// Create connection
 		$conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
